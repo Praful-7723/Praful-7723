@@ -1,0 +1,85 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Praful A — builder profile banner</title>
+  <desc id="desc">An animated midnight interface with orbiting nodes, a scanning glow, and the words Praful A.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#050810"/>
+      <stop offset="0.5" stop-color="#0B1220"/>
+      <stop offset="1" stop-color="#05070C"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="265" y1="0" x2="930" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#60A5FA"/>
+      <stop offset="0.5" stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#F8C15C"/>
+    </linearGradient>
+    <radialGradient id="orb" cx="0" cy="0" r="1" gradientTransform="translate(600 160) rotate(90) scale(126)">
+      <stop stop-color="#7C3AED" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#7C3AED" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#94A3B8" stroke-opacity="0.08"/>
+      <circle cx="1" cy="1" r="1" fill="#CBD5E1" fill-opacity="0.2"/>
+    </pattern>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="frame"><rect x="10" y="10" width="1180" height="300" rx="28"/></clipPath>
+  </defs>
+
+  <style>
+    .scan { animation: scan 6s cubic-bezier(.4,0,.2,1) infinite; }
+    .orbit-a { transform-origin: 600px 160px; animation: orbit 18s linear infinite; }
+    .orbit-b { transform-origin: 600px 160px; animation: orbit 26s linear infinite reverse; }
+    .pulse { animation: pulse 3.2s ease-in-out infinite; }
+    .dash { stroke-dasharray: 8 12; animation: dash 16s linear infinite; }
+    .spark { animation: spark 4s ease-in-out infinite; }
+    @keyframes scan { 0%,12% { transform: translateX(-420px); opacity: 0; } 25% { opacity: .8; } 68% { opacity: .8; } 85%,100% { transform: translateX(1500px); opacity: 0; } }
+    @keyframes orbit { to { transform: rotate(360deg); } }
+    @keyframes pulse { 0%,100% { opacity: .35; } 50% { opacity: 1; } }
+    @keyframes dash { to { stroke-dashoffset: -400; } }
+    @keyframes spark { 0%,100% { opacity: .2; transform: translateY(0); } 50% { opacity: .95; transform: translateY(-6px); } }
+    @media (prefers-reduced-motion: reduce) { .scan,.orbit-a,.orbit-b,.pulse,.dash,.spark { animation: none; } }
+  </style>
+
+  <g clip-path="url(#frame)">
+    <rect x="10" y="10" width="1180" height="300" rx="28" fill="url(#bg)"/>
+    <rect x="10" y="10" width="1180" height="300" rx="28" fill="url(#grid)"/>
+    <circle cx="600" cy="160" r="170" fill="url(#orb)"/>
+
+    <g opacity="0.8">
+      <circle cx="600" cy="160" r="118" stroke="#A78BFA" stroke-opacity="0.18"/>
+      <circle cx="600" cy="160" r="156" stroke="#60A5FA" stroke-opacity="0.1" class="dash"/>
+      <ellipse cx="600" cy="160" rx="315" ry="112" stroke="url(#accent)" stroke-opacity="0.24" class="dash"/>
+    </g>
+
+    <g class="orbit-a">
+      <circle cx="718" cy="160" r="5" fill="#A78BFA" filter="url(#glow)"/>
+      <circle cx="482" cy="160" r="2.5" fill="#60A5FA"/>
+    </g>
+    <g class="orbit-b">
+      <circle cx="600" cy="4" r="4" fill="#F8C15C" filter="url(#glow)"/>
+      <circle cx="600" cy="316" r="2.5" fill="#A78BFA"/>
+    </g>
+
+    <g class="spark" fill="#E2E8F0">
+      <circle cx="102" cy="92" r="1.8"/><circle cx="178" cy="230" r="1.2"/>
+      <circle cx="1020" cy="86" r="1.6"/><circle cx="1090" cy="222" r="1.3"/>
+    </g>
+
+    <g class="scan" opacity="0.75">
+      <rect x="0" y="12" width="230" height="296" fill="url(#accent)" opacity="0.04"/>
+      <rect x="228" y="12" width="2" height="296" fill="#E0E7FF" filter="url(#glow)"/>
+    </g>
+
+    <text x="600" y="145" text-anchor="middle" fill="#F8FAFC" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="58" font-weight="760" letter-spacing="8">PRAFUL A</text>
+    <rect x="415" y="169" width="370" height="2" rx="1" fill="url(#accent)" class="pulse"/>
+    <text x="600" y="209" text-anchor="middle" fill="#A7B0C2" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="15" letter-spacing="5">BUILD  ·  SHIP  ·  REFINE</text>
+
+    <g font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="11" fill="#64748B" letter-spacing="2">
+      <text x="52" y="55">SYSTEM // ONLINE</text>
+      <text x="975" y="276">CRAFTED WITH INTENT</text>
+    </g>
+  </g>
+  <rect x="10.75" y="10.75" width="1178.5" height="298.5" rx="27.25" stroke="url(#accent)" stroke-opacity="0.55" stroke-width="1.5"/>
+</svg>
