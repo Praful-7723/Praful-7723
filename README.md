@@ -56,11 +56,28 @@ I’m **Praful**, a Computer Science student building across **product engineeri
 
 <br />
 
-<div align="center">
-  <img src="https://img.shields.io/badge/DAILY-JavaScript_·_React_·_Git-27485C?style=flat-square" alt="Daily tools" />
-  <img src="https://img.shields.io/badge/COMFORTABLE-TypeScript_·_Python_·_Java-6F8FA3?style=flat-square" alt="Comfortable tools" />
-  <img src="https://img.shields.io/badge/EXPLORING-AI_·_Blockchain_·_Product_Systems-B58D45?style=flat-square" alt="Exploring" />
-</div>
+<table>
+  <tr>
+    <td width="33%" align="center" valign="top">
+      <sub><b>DAILY DRIVERS</b></sub><br/><br/>
+      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111111" alt="JavaScript" />
+      <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=111111" alt="React" />
+      <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
+    </td>
+    <td width="33%" align="center" valign="top">
+      <sub><b>COMFORTABLE</b></sub><br/><br/>
+      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+      <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" alt="Java" />
+    </td>
+    <td width="33%" align="center" valign="top">
+      <sub><b>EXPLORING</b></sub><br/><br/>
+      <img src="https://img.shields.io/badge/AI_Systems-6E56CF?style=flat-square&logo=googlegemini&logoColor=white" alt="AI systems" />
+      <img src="https://img.shields.io/badge/Blockchain-F7931A?style=flat-square&logo=bitcoin&logoColor=white" alt="Blockchain" />
+      <img src="https://img.shields.io/badge/Product_Systems-27485C?style=flat-square&logo=figma&logoColor=white" alt="Product systems" />
+    </td>
+  </tr>
+</table>
 
 ## `03 / SELECTED WORK`
 
@@ -71,7 +88,12 @@ I’m **Praful**, a Computer Science student building across **product engineeri
       <h3>HUSTI · Offline Savings PWA</h3>
       <p>A private savings calendar that turns consistency into a daily ritual—without accounts, cloud storage, or subscription friction.</p>
       <p><b>Why it exists:</b> Financial habits should be easy to begin and private by default.</p>
-      <p><code>JavaScript</code> <code>PWA</code> <code>Local Storage</code> <code>Vite</code></p>
+      <p>
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111111" alt="JavaScript" />
+        <img src="https://img.shields.io/badge/PWA-5A0FC8?style=flat-square&logo=pwa&logoColor=white" alt="Progressive Web App" />
+        <img src="https://img.shields.io/badge/Local_First-27485C?style=flat-square&logo=googlechrome&logoColor=white" alt="Local-first storage" />
+        <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite" />
+      </p>
       <a href="https://husti-open.vercel.app"><img src="https://img.shields.io/badge/LIVE_DEMO-9BE43A?style=for-the-badge&logo=vercel&logoColor=111111" alt="Open HUSTI live demo" /></a>
       <a href="https://github.com/Praful-7723/husti-open"><img src="https://img.shields.io/badge/SOURCE-20242A?style=for-the-badge&logo=github&logoColor=white" alt="HUSTI source code" /></a>
     </td>
@@ -80,7 +102,12 @@ I’m **Praful**, a Computer Science student building across **product engineeri
       <h3>Algo Arcade · Algorithm Maze Game</h3>
       <p>A neon maze arcade where players choose routes, compare DFS, BFS and A* replays, and challenge friends.</p>
       <p><b>Why it exists:</b> Algorithms become memorable when the learner controls the path.</p>
-      <p><code>React</code> <code>TypeScript</code> <code>Supabase</code> <code>Motion</code></p>
+      <p>
+        <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=111111" alt="React" />
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+        <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=111111" alt="Supabase" />
+        <img src="https://img.shields.io/badge/Motion-FF0055?style=flat-square&logo=framer&logoColor=white" alt="Motion" />
+      </p>
       <a href="https://aa-algo-arcade.vercel.app"><img src="https://img.shields.io/badge/PLAY_LIVE-A3FF3F?style=for-the-badge&logo=vercel&logoColor=111111" alt="Play Algo Arcade" /></a>
       <a href="https://github.com/Praful-7723/AA-algo-arcade"><img src="https://img.shields.io/badge/SOURCE-20242A?style=for-the-badge&logo=github&logoColor=white" alt="Algo Arcade source code" /></a>
     </td>
