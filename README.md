@@ -2,13 +2,18 @@
   <a href="https://porfolio-rho-blush.vercel.app">
     <img width="100%" src="./assets/atelier-hero.webp" alt="Praful's light watercolor portfolio world" />
   </a>
-  <img width="100%" src="./assets/identity.svg" alt="Praful A — Digital Atelier" />
+
+  <h1>Praful A</h1>
+  <p><code>PRODUCT ENGINEERING · AI · BLOCKCHAIN · THOUGHTFUL INTERFACES</code></p>
+  <h3>I turn ambitious ideas into useful software.</h3>
 
   <br />
 
-  <a href="https://porfolio-rho-blush.vercel.app"><img src="https://img.shields.io/badge/ENTER_PORTFOLIO-F8F4EA?style=for-the-badge&logo=vercel&logoColor=1F2933&labelColor=F8F4EA" alt="Portfolio" /></a>
-  <a href="https://www.linkedin.com/in/praful-athrangadan-058285376"><img src="https://img.shields.io/badge/CONNECT-EDF3F4?style=for-the-badge&logo=linkedin&logoColor=385A6B" alt="LinkedIn" /></a>
-  <a href="mailto:praful.edx@gmail.com"><img src="https://img.shields.io/badge/WRITE_TO_ME-F3E8D2?style=for-the-badge&logo=gmail&logoColor=8A6632" alt="Email" /></a>
+  <a href="https://porfolio-rho-blush.vercel.app"><img src="https://img.shields.io/badge/PORTFOLIO-1F2933?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/praful-athrangadan-058285376"><img src="https://img.shields.io/badge/LINKEDIN-3D677B?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:praful.edx@gmail.com"><img src="https://img.shields.io/badge/EMAIL-B58D45?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://husti-open.vercel.app"><img src="https://img.shields.io/badge/HUSTI-9BE43A?style=for-the-badge&logo=pwa&logoColor=111111" alt="HUSTI live" /></a>
+  <a href="https://aa-algo-arcade.vercel.app"><img src="https://img.shields.io/badge/ALGO_ARCADE-A3FF3F?style=for-the-badge&logo=gamejolt&logoColor=111111" alt="Algo Arcade live" /></a>
 </div>
 
 <br />
@@ -36,8 +41,6 @@ I’m **Praful**, a Computer Science student building across **product engineeri
   </tr>
 </table>
 
-<img width="100%" src="./assets/process.svg" alt="Observe, sketch, build, refine, ship" />
-
 ## `02 / THE TOOL CABINET`
 
 <div align="center">
@@ -64,20 +67,22 @@ I’m **Praful**, a Computer Science student building across **product engineeri
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://husti-open.vercel.app"><img width="100%" src="./assets/husti.svg" alt="HUSTI illustrated project card" /></a>
+      <a href="https://husti-open.vercel.app"><img width="100%" src="./assets/husti-showcase.jpg" alt="HUSTI live product showcase" /></a>
       <h3>HUSTI · Offline Savings PWA</h3>
       <p>A private savings calendar that turns consistency into a daily ritual—without accounts, cloud storage, or subscription friction.</p>
       <p><b>Why it exists:</b> Financial habits should be easy to begin and private by default.</p>
       <p><code>JavaScript</code> <code>PWA</code> <code>Local Storage</code> <code>Vite</code></p>
-      <a href="https://husti-open.vercel.app"><b>Experience it live ↗</b></a> · <a href="https://github.com/Praful-7723/husti-open">Source</a>
+      <a href="https://husti-open.vercel.app"><img src="https://img.shields.io/badge/LIVE_DEMO-9BE43A?style=for-the-badge&logo=vercel&logoColor=111111" alt="Open HUSTI live demo" /></a>
+      <a href="https://github.com/Praful-7723/husti-open"><img src="https://img.shields.io/badge/SOURCE-20242A?style=for-the-badge&logo=github&logoColor=white" alt="HUSTI source code" /></a>
     </td>
     <td width="50%" valign="top">
-      <a href="https://aa-algo-arcade.vercel.app"><img width="100%" src="./assets/algo.svg" alt="Algo Arcade illustrated project card" /></a>
+      <a href="https://aa-algo-arcade.vercel.app"><img width="100%" src="./assets/algo-showcase.jpg" alt="Algo Arcade live product showcase" /></a>
       <h3>Algo Arcade · Algorithm Maze Game</h3>
       <p>A neon maze arcade where players choose routes, compare DFS, BFS and A* replays, and challenge friends.</p>
       <p><b>Why it exists:</b> Algorithms become memorable when the learner controls the path.</p>
       <p><code>React</code> <code>TypeScript</code> <code>Supabase</code> <code>Motion</code></p>
-      <a href="https://aa-algo-arcade.vercel.app"><b>Play it live ↗</b></a> · <a href="https://github.com/Praful-7723/AA-algo-arcade">Source</a>
+      <a href="https://aa-algo-arcade.vercel.app"><img src="https://img.shields.io/badge/PLAY_LIVE-A3FF3F?style=for-the-badge&logo=vercel&logoColor=111111" alt="Play Algo Arcade" /></a>
+      <a href="https://github.com/Praful-7723/AA-algo-arcade"><img src="https://img.shields.io/badge/SOURCE-20242A?style=for-the-badge&logo=github&logoColor=white" alt="Algo Arcade source code" /></a>
     </td>
   </tr>
 </table>
@@ -136,18 +141,17 @@ I’m **Praful**, a Computer Science student building across **product engineeri
 
 ## `06 / AN OPEN DOOR`
 
-<img width="100%" src="./assets/closing.svg" alt="The next thing I build has not been drawn yet" />
+<img width="100%" src="./assets/closing-world.jpg" alt="A sword and a path through red spider lilies toward the next build" />
 
 <div align="center">
   <h3>The next repository could begin with a conversation.</h3>
   <p>
-    <a href="https://porfolio-rho-blush.vercel.app"><b>Portfolio</b></a>
-    &nbsp;·&nbsp;
-    <a href="mailto:praful.edx@gmail.com"><b>Email</b></a>
-    &nbsp;·&nbsp;
-    <a href="https://www.linkedin.com/in/praful-athrangadan-058285376"><b>LinkedIn</b></a>
-    &nbsp;·&nbsp;
-    <a href="https://github.com/Praful-7723?tab=repositories"><b>Repositories</b></a>
+    <a href="https://porfolio-rho-blush.vercel.app"><img src="https://img.shields.io/badge/VIEW_PORTFOLIO-1F2933?style=for-the-badge&logo=vercel&logoColor=white" alt="View portfolio" /></a>
+    <a href="https://www.linkedin.com/in/praful-athrangadan-058285376"><img src="https://img.shields.io/badge/CONNECT_ON_LINKEDIN-3D677B?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn" /></a>
+    <a href="mailto:praful.edx@gmail.com"><img src="https://img.shields.io/badge/SEND_AN_EMAIL-B58D45?style=for-the-badge&logo=gmail&logoColor=white" alt="Send an email" /></a>
+    <a href="https://github.com/Praful-7723?tab=repositories"><img src="https://img.shields.io/badge/EXPLORE_REPOSITORIES-20242A?style=for-the-badge&logo=github&logoColor=white" alt="Explore repositories" /></a>
+    <a href="https://husti-open.vercel.app"><img src="https://img.shields.io/badge/OPEN_HUSTI-9BE43A?style=for-the-badge&logo=pwa&logoColor=111111" alt="Open HUSTI" /></a>
+    <a href="https://aa-algo-arcade.vercel.app"><img src="https://img.shields.io/badge/PLAY_ALGO_ARCADE-A3FF3F?style=for-the-badge&logo=gamejolt&logoColor=111111" alt="Play Algo Arcade" /></a>
   </p>
   <sub>Observe carefully · Build deliberately · Ship with care</sub>
 </div>
