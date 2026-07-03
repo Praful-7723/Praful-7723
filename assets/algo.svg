@@ -1,0 +1,15 @@
+<svg width="580" height="300" viewBox="0 0 580 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Algo Arcade maze project illustration">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="580" y2="300"><stop stop-color="#FBF6EC"/><stop offset="1" stop-color="#DCE9ED"/></linearGradient><linearGradient id="route" x1="298" y1="0" x2="548" y2="0"><stop stop-color="#D99B3E"/><stop offset=".5" stop-color="#547C9B"/><stop offset="1" stop-color="#6E5A8D"/></linearGradient></defs>
+  <style>.route{stroke-dasharray:520;stroke-dashoffset:520;animation:draw 5s ease-in-out infinite}.goal{animation:pulse 2.5s ease-in-out infinite}@keyframes draw{0%,12%{stroke-dashoffset:520}65%,100%{stroke-dashoffset:0}}@keyframes pulse{0%,100%{opacity:.45}50%{opacity:1}}@media(prefers-reduced-motion:reduce){.route,.goal{animation:none;stroke-dashoffset:0}}</style>
+  <rect x="4" y="4" width="572" height="292" rx="28" fill="url(#bg)" stroke="#B2C4CC"/>
+  <text x="34" y="48" fill="#506878" font-family="ui-monospace,SFMono-Regular,Menlo,monospace" font-size="12" letter-spacing="3">PLAY / LEARN / COMPARE</text>
+  <text x="34" y="91" fill="#233947" font-family="Georgia,serif" font-size="39" font-weight="700">Algo Arcade</text>
+  <text x="36" y="119" fill="#65727A" font-family="Inter,Arial,sans-serif" font-size="12.5">Choose the route. Compare the algorithm.</text>
+  <g transform="translate(296 33)" stroke="#8199A7" stroke-width="3" stroke-linecap="round">
+    <rect width="248" height="232" rx="18" fill="#FAFCFB" stroke="#B7C7CE"/>
+    <path d="M22 22V86H61V54H98V22M136 22V61H176V22M213 22V93H176V128H213V168H176V210M22 124H61V162H98V124H136V92H98V61M22 210H61V192H98V162H136V210M136 128H176M98 92H61"/>
+    <path d="M22 42V104H61V143H98V112H136V76H176V111H213V150H176V192H213" stroke="url(#route)" stroke-width="7" class="route"/>
+    <circle cx="22" cy="42" r="9" fill="#D99B3E" stroke="#FFF"/><circle cx="213" cy="192" r="11" fill="#6E5A8D" stroke="#FFF" class="goal"/>
+  </g>
+  <g transform="translate(36 175)" font-family="ui-monospace,monospace" font-size="11"><rect width="218" height="82" rx="16" fill="#FFFDF7" stroke="#D8CFBD"/><text x="18" y="28" fill="#88724D">PLAYER ROUTE</text><text x="18" y="53" fill="#314B5C">DFS · BFS · A* REPLAY</text><circle cx="188" cy="41" r="17" fill="#E9F0F2"/><path d="M181 41L187 47L197 35" stroke="#547C9B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></g>
+</svg>
