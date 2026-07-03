@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://porfolio-rho-blush.vercel.app">
-    <img width="100%" src="./assets/atelier-hero.webp" alt="Praful's light watercolor portfolio world" />
+    <img width="100%" src="./assets/atelier-hero-animated.svg" alt="Praful's animated watercolor portfolio world" />
   </a>
 
   <h1>Praful A</h1>
